@@ -1,0 +1,3 @@
+python-telegram-bot==20.3
+yfinance==0.2.26
+alpaca-trade-api==3.0.0

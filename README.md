@@ -1,15 +1,26 @@
-# Tesla Trade Bot Website (Improved)
+# Tesla Trade Bot
 
-This is the improved Tesla Trade Bot landing page with a Tesla-red theme and a clear CTA button.
+A Telegram bot that trades Tesla (TSLA) stock using Alpaca API.
 
-## Files
-- `index.html` → Main landing page
-- `logo.png` → Bot logo (used as favicon and preview)
-- `screenshot.png` → Telegram mockup screenshot
-- `README.md` → Deployment instructions
+## Features
+- Get Tesla stock price
+- Buy/sell shares
+- Account balance & buying power (/account)
+- Set price alerts with auto-trading
+- Moving Average strategy (SMA5/SMA20)
+- Trade logging
+- Admin-only commands
 
-## Deployment
-1. Upload all files to your GitHub repository: `Tesla-trade-bot`.
-2. Commit and push to the `main` (or `master`) branch.
-3. Enable GitHub Pages in your repo settings.
-4. Visit: https://zagazauu-bit.github.io/Tesla-trade-bot/
+## Setup
+1. Clone repo and install requirements:
+   ```bash
+   pip install -r requirements.txt
+   ```
+2. Fill `config.py` with your keys:
+   - `BOT_TOKEN` (Telegram bot token)
+   - `ALPACA_API_KEY` and `ALPACA_SECRET_KEY`
+   - Run `/whoami` to get your Telegram ID and paste into `ADMIN_ID`
+3. Run the bot:
+   ```bash
+   python bot.py
+   ```

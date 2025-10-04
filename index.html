@@ -2,105 +2,49 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tesla Trade Bot – Trade TSLA Stock on Telegram</title>
-  <meta name="description" content="Tesla Trade Bot is a Telegram-powered assistant to track and trade TSLA stock. Start trading today with one click.">
-
-  <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="Tesla Trade Bot – Trade TSLA Stock on Telegram">
-  <meta property="og:description" content="A Telegram-powered trading assistant for TSLA stock.">
-  <meta property="og:image" content="logo.png">
-  <meta property="og:url" content="https://zagazauu-bit.github.io/Tesla-trade-bot/">
-
-  <!-- Twitter -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Tesla Trade Bot – Trade TSLA Stock on Telegram">
-  <meta name="twitter:description" content="Track Tesla stock price and trade instantly on Telegram.">
-  <meta name="twitter:image" content="logo.png">
-
-  <link rel="icon" href="logo.png">
+  <title>Tesla Trade Bot</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0; padding: 0;
-      background: #f5f5f5;
-      color: #333;
-      text-align: center;
-    }
-    header {
-      background: #e82127;
-      color: white;
-      padding: 20px;
-    }
-    header img {
-      height: 60px;
-      vertical-align: middle;
-    }
-    header h1 {
-      margin: 10px 0 0;
-      font-size: 28px;
-    }
-    .content {
-      padding: 30px 20px;
-    }
-    .content p {
-      font-size: 18px;
-      margin: 10px 0;
-    }
-    .cta-btn {
-      display: inline-block;
-      margin: 20px 0;
-      padding: 14px 28px;
-      font-size: 20px;
-      font-weight: bold;
-      color: white;
-      background: #e82127;
-      border-radius: 6px;
-      text-decoration: none;
-      transition: background 0.3s;
-    }
-    .cta-btn:hover {
-      background: #c4141c;
-    }
-    .screenshot img {
-      max-width: 90%;
-      margin-top: 20px;
-      border-radius: 10px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.25);
-    }
-    footer {
-      background: #222;
-      color: #bbb;
-      padding: 15px;
-      font-size: 14px;
-      margin-top: 30px;
-    }
-    footer a {
-      color: #e82127;
-      text-decoration: none;
-    }
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; text-align: center; }
+    header { background: #111; color: white; padding: 50px 20px; }
+    header h1 { font-size: 3em; }
+    header a { background: #e82127; color: white; padding: 15px 25px; text-decoration: none; border-radius: 5px; font-weight: bold; }
+    section { padding: 40px 20px; }
+    .features { display: flex; justify-content: center; flex-wrap: wrap; gap: 20px; }
+    .feature { background: #f5f5f5; padding: 20px; border-radius: 8px; width: 250px; }
+    footer { background: #111; color: white; padding: 20px; margin-top: 40px; }
+    footer a { color: #e82127; }
   </style>
 </head>
 <body>
   <header>
-    <img src="logo.png" alt="Tesla Trade Bot Logo">
-    <h1>Tesla Trade Bot</h1>
+    <h1>🚀 Tesla Trade Bot</h1>
+    <p>A Telegram-powered trading assistant for TSLA stock.</p>
+    <a href="https://t.me/Tesl_Trade_bot" target="_blank">Launch on Telegram</a>
   </header>
 
-  <div class="content">
-    <p>🚀 A Telegram-powered trading assistant for Tesla (TSLA) stock.</p>
-    <p>Track live Tesla stock prices, manage your trading position, and execute trades instantly.</p>
-
-    <a href="https://t.me/Tesl_Trade_bot" class="cta-btn">Launch Bot on Telegram</a>
-
-    <div class="screenshot">
-      <img src="screenshot.png" alt="Tesla Trade Bot Screenshot">
+  <section>
+    <h2>✨ Features</h2>
+    <div class="features">
+      <div class="feature">📊 Live Tesla Price</div>
+      <div class="feature">💰 Account Balance</div>
+      <div class="feature">🔔 Price Alerts</div>
+      <div class="feature">📈 Auto Strategy</div>
+      <div class="feature">📝 Trade Logging</div>
+      <div class="feature">🔒 Admin Commands</div>
     </div>
-  </div>
+  </section>
+
+  <section>
+    <h2>💡 How to Use</h2>
+    <p><b>/start</b> → Show menu</p>
+    <p><b>/account</b> → Check balance</p>
+    <p><b>/setalert 250 buy</b> → Buy alert at $250</p>
+    <p><b>/whoami</b> → Get your Telegram ID</p>
+  </section>
 
   <footer>
-    <p>© 2025 Tesla Trade Bot | <a href="https://t.me/Tesl_Trade_bot">Telegram Bot</a> | <a href="https://github.com/zagazauu-bit/Tesla-trade-bot">GitHub Repo</a></p>
+    <p>Made with ❤️ using <a href="https://alpaca.markets/" target="_blank">Alpaca API</a></p>
+    <p><a href="https://github.com/zagazauu-bit/Tesla-trade-bot" target="_blank">View on GitHub</a></p>
   </footer>
 </body>
 </html>
